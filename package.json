@@ -4,9 +4,13 @@
   "description": "Convert per hour wage to annual salary and vice versa",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node cli.js test"
   },
   "author": "jamrod",
   "license": "ISC",
-  "bin": "cli.js"
+  "bin": "cli.js",
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/jamrod/slaryCalc"
+  }
 }
