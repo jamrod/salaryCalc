@@ -1,0 +1,12 @@
+{
+  "name": "salarycalc",
+  "version": "1.0.0",
+  "description": "Convert per hour wage to annual salary and vice versa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jamrod",
+  "license": "ISC",
+  "bin": "cli.js"
+}
