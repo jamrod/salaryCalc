@@ -1,6 +1,6 @@
 {
   "name": "salarycalc",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "Convert per hour wage to annual salary and vice versa",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "jamrod",
   "license": "ISC",
   "bin": "cli.js",
-  "repository":{
+  "repository": {
     "type": "git",
     "url": "https://github.com/jamrod/slaryCalc"
   }

@@ -6,7 +6,7 @@ salarycalc is a simple tool to figure yearly salary from an hourly or weekly wag
 
 npm -g salarycalc
 
-### Useage
+### Usage
 
 salarycalc is intended as a cli module so you would invoke it from the terminal. Make sure you install with the '-g' flag so that the command 'salarycalc' is added.
 Pass the amount and the units as arguments like so 'salaryCalc (num) (unit)'
