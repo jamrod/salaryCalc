@@ -10,7 +10,11 @@ function calc(args) {
     }
 
     if (args[2]) {
-        weeklyHours = parseInt(args[2])
+        if (isNaN(args[2]) || args[2] > 100 || args[2] < 1) {
+            console.log("Hours worked will only accept numbers between 1 and 100, overtime pay rates are not calculated\n", helpText)
+            return
+        }
+        weeklyHours = parseFloat(args[2])
     }
 
     const formatter = new Intl.NumberFormat('en-US', {
